@@ -27,7 +27,9 @@ const Home = () => {
                               <p>Email: Cuisineinfo@outlook.com</p>
                               <p>Mobile: 9871234567</p>
                         </div>
+                        
                         <button  onClick={popup_display} className='contact_btn'>Contact</button>
+                        <a href='/icon_attribution'><button className='credits_btn'>Credits</button></a>
                   </div>
 
 

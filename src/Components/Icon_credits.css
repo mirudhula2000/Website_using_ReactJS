@@ -1,0 +1,12 @@
+.icon_credit_container{
+      background: linear-gradient(130deg,cyan,pink,azure,blanchedalmond);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+.icon_attribution{
+font-family: cursive;
+margin: 5px;
+}

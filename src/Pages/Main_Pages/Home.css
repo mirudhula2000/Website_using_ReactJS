@@ -82,3 +82,20 @@
       color:darkblue;
       font-weight: 600;
 }
+.credits_btn {
+      position: absolute;
+     bottom:20px;
+     left:20px;
+     padding: 15px;
+     font-size: 17px;
+     border-radius: 10px;
+     background:linear-gradient(60deg,azure,yellow);
+    border:none;
+    box-shadow: 0px 7px 3px rgba(3, 5, 112, 0.3);
+    font-family: cursive;
+    color:darkblue;
+     font-weight: 600;
+     transition:transform 1s;
+     cursor: pointer;
+
+}

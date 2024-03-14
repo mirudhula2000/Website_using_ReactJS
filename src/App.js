@@ -9,6 +9,7 @@ import Italian from './Pages/Inner_Pages/Italian';
 import Mediterranean from './Pages/Inner_Pages/Mediterranean';
 import Chinese from './Pages/Inner_Pages/Chinese';
 import Japanese from './Pages/Inner_Pages/Japanese';
+import IconCredits from './Components/Icon_credits';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     {path:'/mediterranean',element:<Mediterranean/>},
     {path:'/chinese',element:<Chinese/>},
     {path:'/japanese',element:<Japanese/>},
+    {path:'/icon_attribution',element:<IconCredits/>}
     
     
 
