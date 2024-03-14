@@ -1,0 +1,84 @@
+.home_page{
+      background: linear-gradient(60deg,yellowgreen,cyan);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.home_info{
+      
+      height: 300px;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+}
+.home_title{
+      background: linear-gradient(360deg,darkblue,black);
+      background-clip: text;
+      color:transparent;
+      font-family: cursive;
+      font-size: 90px;
+}
+.home_info button{
+      padding: 10px;
+      margin: 10px;
+      font-size:25px;
+      border-radius: 10px;
+      border:none;
+      font-family: cursive;
+      background: linear-gradient(60deg,pink,yellow);
+      box-shadow:0px 15px 10px rgba(2, 27, 83, 0.3) ;
+      color:darkblue;
+      font-weight: 600;transition:transform 1s;
+      cursor: pointer;
+}
+.contact_btn {
+      position: absolute;
+     bottom:20px;
+     right:20px;
+     padding: 15px;
+     font-size: 17px;
+     border-radius: 10px;
+     background:linear-gradient(60deg,azure,yellow);
+    border:none;
+    box-shadow: 0px 7px 3px rgba(3, 5, 112, 0.3);
+    font-family: cursive;
+    color:darkblue;
+     font-weight: 600;
+     transition:transform 1s;
+     cursor: pointer;
+
+}
+.contact_btn:hover{
+      transform:translateY(-7px);
+}
+.home_info button:hover{
+      transform:translateX(15px);
+}
+.contact_info{
+      position: absolute;
+      bottom:80px;
+      right:20px;
+      border:2px solid teal;
+      background: bisque;
+      padding: 5px;
+      border-radius: 10px;
+      font-family: cursive;
+      font-weight: 600;
+      color:teal;
+     display:none;
+}
+.contact_info button{
+      cursor: pointer;
+      float: right;
+      background: transparent;
+      font-size: 15px;
+      font-family: cursive;
+      border: none;
+      color:darkblue;
+      font-weight: 600;
+}

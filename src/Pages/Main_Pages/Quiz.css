@@ -1,0 +1,199 @@
+.quiz_main{
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      font-family: cursive;
+      background:linear-gradient(90deg,black,linen,azure,lightblue);
+      display: flex;
+      flex-direction: column;
+}
+.quiz_head_content{
+      border: 2px solid brown;
+      margin: 2px;
+}
+.quiz_head_main{
+      /* border: 2px solid black; */
+      height: 17%;
+      width: 100%;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      font-family: cursive;
+      font-weight: bold;
+}
+.quiz_head_1{
+      height: 5rem;
+      padding: 5px;
+      border-radius:50px;
+      text-align: center;
+      transform: translate(20px,10px);
+      width: 30rem;
+      background:linear-gradient(60deg,darkblue,pink,darkblue,pink);
+}
+.quiz_head_1 p{
+      letter-spacing: 20px;
+     
+      font-size: 50px;
+      color:azure
+}
+.quiz_head_2{
+      height: 5rem;
+      padding: 5px;
+     border-radius: 50px;
+     text-align: center;
+     transform: translate(-20px,10px);
+      width: 30rem;
+      background:linear-gradient(60deg,darkblue,pink,darkblue,pink);
+}
+.quiz_head_2 p{
+      letter-spacing: 20px;
+     
+      font-size: 50px;
+      color:azure;
+}
+.quiz_align{
+      /* border:2px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:30px;
+      margin: 20px;
+}
+.quiz_intro{
+     box-shadow: 10px 20px 30px rgba(8, 143, 62, 0.3);
+      height: auto;
+      width: 80vw;
+     
+      border-radius: 50px;
+      background: linear-gradient(60deg,lightyellow,orange);
+      text-align: center;
+
+}
+.quiz_intro h2{
+      font-size: 40px;
+      color:darkred;
+}
+.quiz_intro p{
+      font-size: 20px;
+      color:darkcyan;
+}
+
+.quiz_content_align{
+      width: 98%;
+      height: auto;
+      border:2px solid black;
+      margin-left: 10px;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:3px;
+      
+}
+.ques_cont{
+      height: auto;
+      width: 95%;
+      padding: 5px;
+      border:2px solid magenta;
+      display: flex;
+      flex-direction: column;
+      
+}
+.question_content{
+      height: auto;
+      width: 45%;
+      padding: 10px;
+      border-radius: 50px;
+      border:2px solid green;
+      background: linear-gradient(260deg,lightyellow,orange,lightyellow);
+      box-shadow: 2px -5px 10px rgba(228, 21, 166, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:3px;
+}
+.question_content h4{
+      margin-left: 15px;  
+ }
+ .options{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+     margin-top: 5px;
+      padding: 3px;
+      width: 100%;  
+}
+.options p{
+      margin: 3px;
+      width: 40%;
+      text-align: start;
+      border:none;
+      padding: 10px;
+      border-radius: 50px;
+      cursor: pointer;
+      background:linear-gradient(40deg,rgb(232, 29, 60),azure);
+}
+
+
+.quiz_content_align button{
+      margin-left: 20px;
+      margin-top:5px;
+      padding: 3px;
+      border-radius: 50px;
+      border:2px solid black;
+      background: linear-gradient(60deg,darkcyan,azure);
+      color:black;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      font-family: inherit;
+      box-shadow: 2px 5px 5px;
+      
+}
+
+.ans_info{
+      width: 45%;
+      padding: 5px;
+      height: auto;
+      background-color: blanchedalmond;
+      margin-left:20px;
+      margin-top:5px;
+      border-radius: 20px;
+      border:2px groove darkblue;
+       display:none;   
+       /* transition: width 4s ease-out; */
+}
+.ans_info h4,p{
+      margin-left: 10px;
+}
+.ans_info button{
+      position:relative;
+      float:right;
+      padding: 7px;     
+}
+.input{
+      width: 70%;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 15px;
+      border:2px solid teal;
+      background: lightyellow;
+      
+}
+.input_ans{
+      display: flex;
+      gap:5px;
+}
+.input_ans img{
+      height: 30px;
+      width: 30px;
+      display:none;
+
+}
+/* .right_mark{
+ display:none;
+} */

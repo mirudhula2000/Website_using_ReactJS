@@ -1,0 +1,75 @@
+.info_container{
+      border: 3px solid darkmagenta;
+      border-radius: 20px;
+      margin: 20px;
+      transition: transform 2s;
+      height: 220px;
+      width: 220px;
+      box-shadow: 0 10px 20px rgba(206, 220, 50, 0.5);
+      position: relative;
+      cursor: pointer;
+
+}
+.overlay{
+      height: 100%;
+      width: 100%;
+      background:linear-gradient(60deg,azure,lightblue,azure);
+      border-radius: 20px;
+      position: absolute;
+      color:darksalmon;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      font-family:cursive;
+      transition: 0.5s linear;
+      
+
+}
+.info{
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+      background:linear-gradient(45deg,yellowgreen,cornsilk);
+      display: flex;
+      flex-direction: column;
+      font-family: cursive;
+}
+.info p{
+      margin: 10px;
+      font-weight: 600;
+      font-size: medium;
+      color: darkmagenta;
+}
+.info_container:hover .overlay{
+      height: 0;
+}
+.info_container:hover .overlay h2{
+      display:none;
+}
+.info_container:hover{
+      transform: scale(1.5);
+}
+.info button{
+      height: 25px;
+      width: 100px;
+      border-radius: 20px;
+      padding: 5px;
+      margin: 10px;
+      background-color:bisque;
+      color:indigo;
+      border:1px groove brown;
+      font-weight: bold;
+      font-size: 10px;
+      transition: transform 0.7s;
+      cursor: pointer;
+}
+.info button:hover{
+      background:linear-gradient(360deg,azure,pink);
+      transform: translateX(30px);
+
+}
+.info_head{
+      color:darkred !important;
+
+}
